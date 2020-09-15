@@ -23,23 +23,24 @@ body{
     border: 2px solid black;
 }
 
-
-.imagen{
-    background-image: url(../img/img1.jpeg); 
-    margin: 10px;   
+.imagen{    
+    padding: 300px;
+    background: url("../img/clinicainicio.png"); 
+    background-size: cover;     
+    background-repeat: no-repeat;
 }
-.titulo{
+.cosas{
     text-align: center;
 }
-.titulo h1{
-    color: rgb(78, 78, 214);
+.cosas h1{
+    color: rgb(7, 7, 44);
+    font-weight: bold;
 }
-.titulo p{
-    color: grey;
+.cosas p{
+    color: rgb(34, 26, 26);
+    font-weight: bold;
 }
-.titulo .linea{
-    color: red;
-}
+
 
 .doctores{
     margin-top: 100px;
@@ -94,6 +95,12 @@ body{
     text-align: center;
     margin-bottom: 100px;
 }
+.subs h1{
+    color: blue;
+}
+.subs p{
+    color: grey;
+}
 .submit{
     display: flex;
     flex-direction: column;
@@ -114,16 +121,31 @@ body{
 .footer{
     background: white;
     padding: 20px;
+}
+.caja{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.caja img{
+    height: 80px;
+    border-radius: 80px;
+    margin-right: 8px;
+    box-shadow: 3px 3px 10px grey;
+}
+.footer2{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .iconos{
     display: flex;
+    margin: 50px;
+    align-items: center;
 }
 .iconos i{
     margin-left: 20px;
-    size: 7x;
+    font-size: 30px;
 }
 .menufooter{
     display: flex;
