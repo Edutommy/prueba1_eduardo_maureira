@@ -10,11 +10,43 @@
     display: flex;
     align-items: center;
 }
-.menu h5{
+.menu a{
     margin-left: 50px;
+    text-decoration: none;
 }
+.cajanegra{
+    padding: 10px;
+    border: 2px solid black;
+}
+
+
 .imagen{
-    background-image: url(../img/incio.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background-image: url(../img/img1.jpeg);
+    background-size: 100%;    
+}
+.titulo{
+    text-align: center;
+}
+.titulo h1{
+    color: rgb(78, 78, 214);
+}
+.titulo p{
+    color: grey;
+}
+.titulo .linea{
+    color: red;
+}
+
+.doctores{
+    text-align: center;
+}
+.doctores h1{
+    color: blue;
+}
+.doctoresfotos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.doctor img{
+    width: 100%;
 }
