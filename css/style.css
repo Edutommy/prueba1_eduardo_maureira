@@ -4,6 +4,9 @@ body{
     background: rgb(238, 234, 234);
 }
 
+.logo1{
+    display: none;
+}
 .logo{
     display: flex;
     justify-content: space-between;
@@ -40,6 +43,30 @@ body{
     color: rgb(34, 26, 26);
     font-weight: bold;
 }
+.hr1{
+    height: 10px;
+    width: 5%;
+    background-color: blue;
+    border: none;
+}
+.hr2{
+    height: 3px;
+    width: 5%;
+    background-color: blue;
+    border: none;
+}
+.hr3{
+    height: 3px;
+    width: 5%;
+    background-color: blue;
+    border: none;
+}
+.hr4{
+    height: 3px;
+    width: 10%;
+    background-color: blue;
+    border: none;
+}
 
 
 .doctores{
@@ -63,6 +90,7 @@ body{
 .doctor img{
     width: 100%;
     height: 500px;
+    margin-bottom: 50px;
 }
 .doctor p{
     padding: 10px;
@@ -87,7 +115,7 @@ body{
 }
 .about p{
     color: grey;
-
+    text-align: justify;
 }
 
 .subs{
@@ -151,5 +179,60 @@ body{
     display: flex;
 }
 .menufooter p{
+    color: blue;
     margin-left: 20px;
+}
+
+@media (max-width: 1020px){
+    .logo1{
+        padding: 20px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .subs{
+        align-items: center;
+    }
+    .submit{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .submit button{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .footer2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .menufooter{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .quienessomos{
+        display: flex;
+        flex-direction: column;
+    }
+    .doctoresfotos{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        display: none;
+    }
+    .imagen{
+        padding: 200px;
+        background: url("../img/clinicainicio.png");     
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .cosas{
+        text-align: center;
+    }
+    .cosas h1{
+        color: blue;
+    }
+    .cosas p{
+        color: #fff;
+    }
 }
